@@ -1,0 +1,47 @@
+{
+  "summary": {
+    "total_logs": 10015,
+    "levels": {
+      "ERROR": 2070,
+      "INFO": 6966,
+      "WARN": 979
+    },
+    "services": {
+      "service_b": 5031,
+      "service_a": 4984
+    },
+    "error_rates": {
+      "service_b": 20.73,
+      "service_a": 20.61
+    }
+  },
+  "top_errors": [
+    {
+      "message": "Timeout occurred",
+      "count": 1410
+    },
+    {
+      "message": "Invalid request",
+      "count": 179
+    },
+    {
+      "message": "Database connection failed",
+      "count": 165
+    },
+    {
+      "message": "Authentication error",
+      "count": 160
+    },
+    {
+      "message": "Internal server error",
+      "count": 156
+    }
+  ],
+  "anomalies": [
+    {
+      "window_start": "2026-03-18 10:00:00",
+      "window_end": "2026-03-18 10:05:00",
+      "error_count": 15
+    }
+  ]
+}
